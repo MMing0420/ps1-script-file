@@ -1,3 +1,4 @@
+folder文件夹转化为iso文件
 将此ps1脚本放到你要打包的文件夹内。
 我尽可能把中文名文件输出乱码的问题修改了，如果是其他语言(比如日语韩语)，可能会出现乱码，需要调整字符集。
 运行ps1脚本，它会将文件夹内的文件打包为iso，它不会把自己打包进入，输出的iso文件名字与文件夹的名字相同。
@@ -13,6 +14,8 @@ powershell
 RemoteSigned 含义：网上下载的脚本需要数字签名，本地自己创建的脚本可直接运行，兼顾安全与使用。
 
 ======
+Convert a folder into an ISO file
+
 Put this PS1 script into the folder you want to package.
 
 I've done my best to fix the garbled output issue for Chinese filenames. If you're using other languages (like Japanese or Korean), you might still see garbled characters — you'll need to tweak the character set.
